@@ -17,11 +17,11 @@ public class _00_ArrayCheatSheet {
 		}
 		
 		//6. make an array of 50 integers
+		int[] m = new int[50];
 		for(int i=0; i<50;i++) {
-			String[] m = {""+i};
-			
+			m[i]=i+1;
 		}
-		
+	
 		//7. use a for loop to make every value of the integer array a random number
 		
 		//8. without printing the entire array, print only the smallest number in the array
